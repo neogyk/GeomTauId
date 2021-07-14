@@ -23,6 +23,6 @@
 #
 #Used to set the env and go to working dir
 #Replace with own pathes
-cd /afs/desy.de/user/b/bukinkir/CMSSW_10_2_14/src; 
+cd $PWD
 eval `scramv1 runtime -sh` ;
-cd /nfs/dust/cms/user/bukinkir/GeomTauId
+cd $PWD/GeomTauId
